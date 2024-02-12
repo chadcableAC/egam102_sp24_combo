@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39e946f0184b34f498d5ac9ac79969be, type: 3}
   m_Name: weiting_game3
   m_EditorClassIdentifier: 
-  _studentName: Susan
+  _studentName: Weiting
   _microgameName: 
   _microgameNumber: 3
   _isCover: 0
@@ -23,4 +23,4 @@ MonoBehaviour:
   _timeoutDuration: 10
   _additionalExitTime: 0
   _additionalExitTimeLose: 0
-  _sceneName: Assets/Susan/susan_jam3.unity
+  _sceneName: Assets/Weiting/weiting_jam3.unity
