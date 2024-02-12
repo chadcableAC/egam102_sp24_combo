@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: previews_atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: b19572f9338c847e2b0e764da0381bde, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 1f21bd80bfb954d28898f3f763bcbf3b, type: 3}
+  - {fileID: 21300000, guid: 49979e518843b46758760e5dd276f5ab, type: 3}
+  - {fileID: 21300000, guid: bfe2aa716702d42f1ba728956cd735dd, type: 3}
+  - {fileID: 21300000, guid: c9f3868124cff4ab18b7536b11de0728, type: 3}
+  - {fileID: 21300000, guid: 312fbe1202fe645be8f7e5c2a815f356, type: 3}
+  - {fileID: 21300000, guid: ee58a742c5d8e40fe8bcc30d5df27c3c, type: 3}
+  - {fileID: 21300000, guid: 9dfc5bf21017a486380c65572555587c, type: 3}
+  - {fileID: 21300000, guid: c072aa43a281e465cb4eb02a0dcf3f8d, type: 3}
+  - {fileID: 21300000, guid: a1ffb68364dfa4c58970d7a4ed2d139b, type: 3}
+  - {fileID: 21300000, guid: 6779f5934994646aca2a021c8f2a8c6a, type: 3}
+  - {fileID: 21300000, guid: 9d7d22b3e96b94d189822aa941dc0cb2, type: 3}
+  - {fileID: 21300000, guid: a21773e3a051645f18658d4496f4c002, type: 3}
+  - {fileID: 21300000, guid: c1794724445c44e83aa2301d7e0e5fa2, type: 3}
+  - {fileID: 21300000, guid: 0844a9b407ea845f9bcc9cc86eb10ca1, type: 3}
+  - {fileID: 21300000, guid: 2c6afea508b914fcfb7633b7cbf01eb5, type: 3}
+  - {fileID: 21300000, guid: f6738136b4b034275b5dbde9f1fa89ae, type: 3}
+  - {fileID: 21300000, guid: 685e719763d7844148b95bd7a00d21fb, type: 3}
+  - {fileID: 21300000, guid: 0e5967c7dbf604208b52b5d2096a85a2, type: 3}
+  - {fileID: 21300000, guid: 8eaa4f183718a41e984f9163be0056d1, type: 3}
+  - {fileID: 21300000, guid: 4e8568d8fbae34b1e998c9fdbb552382, type: 3}
+  - {fileID: 21300000, guid: f138a8d8e305248878c02b8cb39278f4, type: 3}
+  - {fileID: 21300000, guid: 1bc550f8668e7490ea5c6ff53b780ce3, type: 3}
+  - {fileID: 21300000, guid: 4969ec9964e6142b5a923ff5d0fb63bf, type: 3}
+  - {fileID: 21300000, guid: beb4329a91bc24ec786332db17d8d7f7, type: 3}
+  - {fileID: 21300000, guid: 0f43a6ebb3ec14d968f778552b4f01c6, type: 3}
+  - {fileID: 21300000, guid: 944222fbefc5a41edbd216ff167e57ed, type: 3}
+  - {fileID: 21300000, guid: 8f2df90c335874b8dbba588eaad776a8, type: 3}
+  - {fileID: 21300000, guid: d7a9b82c37ccd442f8e607b384ed345a, type: 3}
+  - {fileID: 21300000, guid: dd517fac4bc2945b6ab663a88d953ca7, type: 3}
+  - {fileID: 21300000, guid: 9ac815fc1490c4bdca927d85a259f3ad, type: 3}
+  - {fileID: 21300000, guid: 5de561cd4579d416fb3c597d28095196, type: 3}
+  - {fileID: 21300000, guid: 853ad8fdcde584f009f6c5e14340dd02, type: 3}
+  - {fileID: 21300000, guid: 4dfd9c1e37c3c4451817e9de52845a66, type: 3}
+  - {fileID: 21300000, guid: 8e7c0a6ec315241bc9575617dbe31fd2, type: 3}
+  - {fileID: 21300000, guid: 2e7adbde7d8dc4812a67967ac2bdb27e, type: 3}
+  - {fileID: 21300000, guid: af30ddeec571e4dc887628ebf3fd5461, type: 3}
+  - {fileID: 21300000, guid: cefde4fe4474048378707123bc8c6d90, type: 3}
+  - {fileID: 21300000, guid: e7ef7e4f35acf48e4acacdee46e01ddf, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - hongru_cover
+  - jiu_cover
+  - jiu_game1
+  - control_preview
+  - xiangyu_game1
+  - yin_game2
+  - young_game1
+  - jiu_game2
+  - chen_cover
+  - young_game3
+  - young_game2
+  - bowen_cover
+  - yixin_game3
+  - xiangyu_cover
+  - yin_game3
+  - yixin_game1
+  - backup_tile
+  - xiangyu_game2
+  - chen_game2
+  - chen_game3
+  - bowen_game1
+  - andrew_game3
+  - yin_cover
+  - yin_game1
+  - bowen_game2
+  - xiangyu_game3
+  - hongru_game1
+  - andrew_cover
+  - young_cover
+  - bowen_game3
+  - hongru_game3
+  - hongru_game2
+  - andrew_game2
+  - jiu_game3
+  - yixin_game2
+  - chen_game1
+  - yixin_cover
+  - andrew_game1
+  m_RenderDataMap: {}
+  m_Tag: previews_atlas
+  m_IsVariant: 0
