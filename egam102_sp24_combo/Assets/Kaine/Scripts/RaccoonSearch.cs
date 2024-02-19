@@ -26,7 +26,7 @@ public class RaccoonSearch : MonoBehaviour
             coonAnim.SetBool("isSearching", true);
             for (int i = 0; i < dumpList.Count; i++)
             {
-                dumpScript.TrashLauncher();
+                dumpList[i].TrashLauncher();
                 //Debug.Log("shoot trash");
                 hasSearched = true;
             }

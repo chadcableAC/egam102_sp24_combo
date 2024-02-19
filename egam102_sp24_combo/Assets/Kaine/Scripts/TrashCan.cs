@@ -26,7 +26,7 @@ public class TrashCan : MonoBehaviour
             coonAnim.SetBool("isSearching", true);
             for (int i = 0; i < trashList.Count; i++)
             {
-                trashScript.TrashLauncher();
+                trashList[i].TrashLauncher();
                 //Debug.Log("shoot trash");
                 hasSearched = true;
             }

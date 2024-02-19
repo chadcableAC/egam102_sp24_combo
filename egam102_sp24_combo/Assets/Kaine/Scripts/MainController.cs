@@ -22,7 +22,7 @@ public class MainController : MonoBehaviour
     {
         if( playerScript.foodHad >= 2)
         {
-            Debug.Log("Winner");
+            //Debug.Log("Winner");
             microInst.WinGame();
             restartButton.gameObject.SetActive(true);
 
@@ -31,6 +31,15 @@ public class MainController : MonoBehaviour
         if( microInst._isGameOver == true)
         {
             restartButton.gameObject.SetActive(true);
+        }
+    }
+
+
+    public void OnCollisionEnter2D(Collision2D col)
+    {
+        if(col.gameObject.CompareTag("FoodBad"))
+        {
+            Destroy(col.gameObject);
         }
     }
 }
