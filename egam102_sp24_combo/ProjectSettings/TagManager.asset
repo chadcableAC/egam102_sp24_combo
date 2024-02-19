@@ -8,6 +8,8 @@ TagManager:
   - Circle
   - Triangle
   - Wall
+  - Music
+  - FakeOut
   layers:
   - Default
   - TransparentFX

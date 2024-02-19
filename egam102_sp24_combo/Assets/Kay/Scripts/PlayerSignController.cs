@@ -20,6 +20,8 @@ public class PlayerSignController : MonoBehaviour
 
     public bool signSelected = false;
 
+    public GameObject restartButton;
+
     public enum SignStates
     {
         Equal,                  //0
@@ -89,12 +91,14 @@ public class PlayerSignController : MonoBehaviour
                 microgameInstance.WinGame();
                 correctAudio.Play();
                 signSelected = true;
+                restartButton.gameObject.SetActive(true);
             }
             else
             {
                 microgameInstance.LoseGame();
                 incorrectAudio.Play();
                 signSelected = true;
+                restartButton.gameObject.SetActive(true);
             }
         }
     }
@@ -121,17 +125,19 @@ public class PlayerSignController : MonoBehaviour
         if (EgamInput.GetKeyDown(EgamInput.Key.Action))
         {
             // check to see if value is equal
-            if (GameObject.FindGameObjectsWithTag("Triangle").Length >= GameObject.FindGameObjectsWithTag("Circle").Length)
+            if (GameObject.FindGameObjectsWithTag("Triangle").Length > GameObject.FindGameObjectsWithTag("Circle").Length)
             {
                 microgameInstance.WinGame();
                 correctAudio.Play();
                 signSelected = true;
+                restartButton.gameObject.SetActive(true);
             }
             else
             {
                 microgameInstance.LoseGame();
                 incorrectAudio.Play();
                 signSelected = true;
+                restartButton.gameObject.SetActive(true);
             }
         }
     }
@@ -157,17 +163,19 @@ public class PlayerSignController : MonoBehaviour
         if (EgamInput.GetKeyDown(EgamInput.Key.Action))
         {
             // check to see if value is equal
-            if (GameObject.FindGameObjectsWithTag("Triangle").Length <= GameObject.FindGameObjectsWithTag("Circle").Length)
+            if (GameObject.FindGameObjectsWithTag("Triangle").Length < GameObject.FindGameObjectsWithTag("Circle").Length)
             {
                 microgameInstance.WinGame();
                 correctAudio.Play();
                 signSelected = true;
+                restartButton.gameObject.SetActive(true);
             }
             else
             {
                 microgameInstance.LoseGame();
                 incorrectAudio.Play();
                 signSelected = true;
+                restartButton.gameObject.SetActive(true);
             }
         }
     }
