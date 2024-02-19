@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Protect This
+  - Circle
+  - Triangle
+  - Wall
   layers:
   - Default
   - TransparentFX
