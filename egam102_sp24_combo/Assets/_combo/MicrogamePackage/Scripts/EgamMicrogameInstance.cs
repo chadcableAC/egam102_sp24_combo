@@ -17,7 +17,7 @@ public class EgamMicrogameInstance : MonoBehaviour
     // Timing information / state
     private EgamMicrogameHelper.WinLose _timeoutType = EgamMicrogameHelper.WinLose.Lose;
 
-    private bool _isGameOver = false;
+    public bool _isGameOver = false;
     public bool isGameOver
     {
         get { return _isGameOver; }        
