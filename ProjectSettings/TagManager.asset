@@ -4,8 +4,12 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Face
-  - Pimple
+  - Protect This
+  - Circle
+  - Triangle
+  - Wall
+  - Music
+  - FakeOut
   layers:
   - Default
   - TransparentFX

@@ -41,7 +41,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Kris/kris_jam3.unity
     guid: 90b56d0ef67994ee3b9de369362d2b91
-  - enabled: 1
+  - enabled: 0
     path: Assets/Olivia/olivia_jam3.unity
     guid: 7f331bb497c8947a5a73aa4c60c89449
   - enabled: 0
