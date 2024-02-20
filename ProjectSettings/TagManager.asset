@@ -4,9 +4,10 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - fish1
-  - fish2
-  - fish3
+  - Floor
+  - Dispenser
+  - Food
+  - FoodBad
   layers:
   - Default
   - TransparentFX
@@ -14,11 +15,11 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Floor
+  - Walls
+  - Dispenser
+  - Food
+  - Player
   - 
   - 
   - 
