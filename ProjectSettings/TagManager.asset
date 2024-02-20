@@ -4,12 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Protect This
-  - Circle
-  - Triangle
-  - Wall
-  - Music
-  - FakeOut
+  - fish1
+  - fish2
+  - fish3
   layers:
   - Default
   - TransparentFX
