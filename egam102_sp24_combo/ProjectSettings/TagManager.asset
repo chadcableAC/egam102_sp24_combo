@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Container
+  - Lid
+  - Pill
+  - WhitePill
+  - BluePill
+  - BlackPill
+  - RedPill
   layers:
   - Default
   - TransparentFX
@@ -11,16 +18,16 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - BlueLid
+  - BlueContainer
+  - BlackLid
+  - BlackContainer
+  - WhiteContainer
+  - WhiteLid
+  - PointyContainer
+  - PointyLid
+  - ColorfulContainer
+  - ColorfulLid
   - 
   - 
   - 
