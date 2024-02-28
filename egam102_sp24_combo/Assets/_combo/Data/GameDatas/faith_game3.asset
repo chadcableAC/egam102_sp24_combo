@@ -16,7 +16,7 @@ MonoBehaviour:
   _microgameName: 
   _microgameNumber: 3
   _isCover: 0
-  _previewSprite: {fileID: 21300000, guid: 1bc550f8668e7490ea5c6ff53b780ce3, type: 3}
+  _previewSprite: {fileID: 21300000, guid: b2d0a4f07bf2f4ce88c80c6dc223acdf, type: 3}
   _galleryString: 
   _controlType: 0
   _isMicrogamePrefabSupported: 1

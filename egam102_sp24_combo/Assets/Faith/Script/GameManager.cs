@@ -70,7 +70,7 @@ namespace Faith
             if(prayingNumber == spawncount && timeCount > 5)
             {
                 microgameInstace.WinGame();
-                replay.SetActive(true);
+                //replay.SetActive(true);
 
                 Score.SetActive(true);
                 PlayerScore.SetActive(true);
@@ -80,7 +80,7 @@ namespace Faith
 
             else if(prayingNumber > spawncount && timeCount > 5.5)
             {
-                replay.SetActive(true);
+                //replay.SetActive(true);
 
                 Score.SetActive(true);
                 PlayerScore.SetActive(true);
@@ -90,7 +90,7 @@ namespace Faith
 
             else if (prayingNumber < spawncount && timeCount > 5.5)
             {
-                replay.SetActive(true);
+                //replay.SetActive(true);
 
                 Score.SetActive(true);
                 PlayerScore.SetActive(true);
